@@ -185,14 +185,15 @@ Therefore, `macro_f1` was used because it gives equal importance to each failure
 │   ├── train.csv
 │   ├── current.csv
 │   └── stress.csv
-├── notebooks/
-│   └── predictive_maintenance_mlops.ipynb
-├── reports/
-│   ├── drift_current.html
-│   ├── drift_stress.html
-│   └── shap_per_class.png
-├── models/
-│   └── best_model.pkl
+├── predictive_maintenance_mlops.ipynb
+├── mlruns/
+├── mlflow.db
+├── drift_current.html
+├── drift_stress.html
+├── shap_per_class.png
+├── best_model.pkl
+├── label_encoder.pkl
+├── best_predmaint_xgboost.joblib
 ├── requirements.txt
 └── README.md
 ```
